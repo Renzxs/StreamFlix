@@ -3,4 +3,4 @@ Your ultimate destination for all things movies! StreamFlix is a dynamic and imm
 
 &copy; No Copyright Infrigement.
 
-!PLEASE DO NOT COPT FOR YOUR SCHOOL TASK, ASSIGNMENT AND ETC!
+!PLEASE DO NOT COPY FOR YOUR SCHOOL TASKS, ASSIGNMENT AND ETC!
