@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StreamFlix</title>
+    <link rel="icon" href="img/icon.png">
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+</head>
+<body>
+    <nav class="nav">
+            <img class="logo" src="img/logo.png" alt="streamflix" width="130px" height="20px" >
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#login">Login</a></li>
+                <li><a href="#signup">Signup</a></li>
+            </ul>
+            <div class="menubar" >
+                <i class="fa fa-bars"></i>
+            </div>
+    </nav>
+
+    <div class="menunav">
+        <div class="closemenu"><i class="fa fa-x"></i></div>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#login">Login</a></li>
+            <li><a href="#signup">Signup</a></li>
+        </ul>
+    </div>
+
+    <div id="home">
+        <div class="home-info hidden">
+            <img src="img/StreamFlix (big).png" alt="">
+            <p>Your ultimate destination for all things movies! StreamFlix is a dynamic and immersive free movie website that brings the magic of cinema right to your fingertips. With an extensive library of films from various genres and eras, StreamFlix caters to every movie lover's taste.</p>
+            <a id="watchnow" href="watch.html">WATCH NOW</a>
+        </div>
+    </div>
+
+    <div id="about">
+        <div class="about-info">
+            <div class="content hidden">
+                <h1>What is StreamFlix?</h1>
+                <p>StreamFlix is a movie streaming website where you can watch your favorite movies for absoletely free. Discover a seamless streaming experience as you navigate through our user-friendly interface, designed to provide you with effortless access to a vast collection of blockbuster hits, timeless classics, indie gems, and everything in between. Whether you're in the mood for heart-pounding action, gripping dramas, side-splitting comedies, or captivating documentaries, StreamFlix has got you covered.</p>
+                <a id="watchnow" href="watch.html">WATCH NOW</a>
+            </div>
+           <img class="hidden" src="img/banner1.png" width="300" height="400" alt="" loading="lazy">
+            
+        </div>
+    </div>
+
+    <div id="contact">
+        <div id="contact-info" class="hidden">
+            <div class="c1">
+                <h1>Contact us</h1>
+                <p>Got a inquiry? we’d love to hear from you. Send us a message and we will respond as soon as possible.</p>
+                <div class="socials">
+                    <a href="https://www.facebook.com/rence.batol.52/"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://www.instagram.com/renzxs03/"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://github.com/Renzxs"><i class="fa-brands fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/john-florence-batol-b990b624b/"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+            </div>
+            <form>
+                <input type="text" id="name" placeholder="Name (Optional)">
+                <br>
+                <input type="email" name="email" id="email" placeholder="Email" readonly>
+                <br>
+                <textarea name="message" id="message" cols="30" rows="10" placeholder="Message" required></textarea>
+                <br>
+                <button id="submit-btn" type="submit">Submit</button>
+            </form>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; No Copyright Infrigement</p>
+        <img src="img/logo.png" alt="" width="100" height="20">
+    </footer>
+
+
+    <script src="js/index.js"></script>
+</body>
+</html>
